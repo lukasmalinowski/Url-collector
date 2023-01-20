@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "inlineSources": true,
+    "sourceRoot": "/"
+  },
+  "exclude": ["node_modules", "tests", "lib", "**/*spec.ts", "./unit.jest.config.ts", "config"]
+}
